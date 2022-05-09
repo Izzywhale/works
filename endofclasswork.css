@@ -1,0 +1,37 @@
+.Background {
+    background-color: blueviolet;
+    /* display: flex; */
+    /* background-size: cover; */
+}
+.Border {
+   border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* border-style: inset; */
+    /* padding-left: 300px; */
+    /* padding-right: 300px; */
+    
+    
+}
+.First {
+    text-align: center;
+    text-decoration: solid;
+    /* padding-left:300px; */
+    /* padding-right: 300px; */
+}
+img {
+    height: 200px;
+    width: 250px;
+}
+.Years {
+    background-color: white;
+    /* list-style-type: disc; */
+}
+ul {
+    list-style-type: disc;
+    /* text-decoration: double; */
+}
+.Minister {
+    text-align: center;
+}

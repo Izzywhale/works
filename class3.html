@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> CLASS 3 WORKS</title>
+    <meta charset="UTF-8">
+    <meta name="description" content = "Freestyle web tutorials" />
+    <meta name="Keywords" content="HTML,CSS,Javascript"/>
+    <meta name ="author" content="John Doe" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../programmer.jpg" type="image/x-icon">
+    <title>Document</title>
+
+
+    <style>
+        aside {
+            width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        
+
+.left {
+  background-color: #2196F3;
+  padding: 20px;
+  float: left;
+  width: 20%; /* The width is 20%, by default */
+}
+
+.main {
+  background-color: #f1f1f1;
+  padding: 20px;
+  float: left;
+  width: 60%; /* The width is 60%, by default */
+}
+
+.right {
+  background-color: #04AA6D;
+  padding: 20px;
+  float: left;
+  width: 20%; /* The width is 20%, by default */
+}
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+
+        body {
+            font-family:Arial, Helvetica, sans-serif;
+        }/* Style the header */
+            header {
+                background-color:#666;
+                padding: 30px;
+                text-align:center;
+                font-size: 35px;
+                color:white;
+             }
+             /*Create two columns/boxes that floats next to each other */
+             nav {
+                 float: left;
+                 width: 30%;
+                 height: 300px; /* only for demonstration, should be removed*/
+                 background: #ccc;
+                 padding: 20px;
+             }
+                 /* Style the list inside the menu */
+                 nav ul {
+                     list-style-type: none;
+                     padding: 0;
+                 }
+
+                 article {
+                     float: left;
+                     padding: 20px;
+                     width: 70%;
+                     background-color: #777;
+                     padding: 10px;
+                     text-align: center;
+                     color: white;
+                 }
+                 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+                 @media (max-width: 600PX) {nav, article {width: 100%;
+                height:auto}
+            }
+        } 
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/html/">HTML</a> |
+  <a href="/css/">CSS</a> |
+  <a href="/js/">JavaScript</a> |
+  <a href="/jquery/">jQuery</a>
+        </nav>
+    </header>
+    <h2>CSS Layout Float</h2>
+    <p>In this example, we have created a <code style="background-color: rgb(221, 219, 219);">header</code>, two columns/boxes and a <code style="background-color: rgb(221, 219, 219);">footer</code>. On smaller screens, the columns will stack on top of each other.</p>
+    <p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter -HTML Responsive.)</p>
+    <header>
+        <h2>Cities</h2>
+      </header>
+      
+      <section>
+        <nav>
+          <ul>
+            <li><a href="#">London</a></li>
+            <li><a href="#">Paris</a></li>
+            <li><a href="#">Tokyo</a></li>
+          </ul>
+        </nav>
+        
+        <article>
+          <h1>London &#128512</h1>
+          <p>London is &lt; or &#60 or &gt; the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+          <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+        </article>
+      </section>
+      
+      <footer>
+        <p>Footer</p>
+      </footer>
+    <div>
+        <div>
+            <table>
+        <tr>
+            <th> BROTHER</th>
+            <th>friend</th>
+            <th>foe</th>
+        </tr>
+        <tr>
+            <td>BABS</td>
+            <td>fire</td>
+            <td>boss</td>
+        </tr>
+        <tr>
+            <td>BABS</td>
+            <td>fire</td>
+            <td>boss</td>
+        </tr>
+    </table>
+        </div>
+        
+
+    <hr>
+    <hr>
+
+<div>
+    <table style="width: 60%;">
+        <tr>
+            <th style="width: 50%;"> BROTHER</th>
+            <th>friend</th>
+            <th>foe</th>
+        </tr>
+        <tr style="height: 250px;">
+            <td>BABS</td>
+            <td>fire</td>
+            <td>boss</td>
+        </tr>
+        <tr>
+            <td>BABS</td>
+            <td>fire</td>
+            <td>boss</td>
+        </tr>
+    </table>
+</div>
+    
+    </div>
+    
+
+    <hr>
+    <hr>
+
+    
+    <ul>
+        <li>BOOK</li>
+        <li id="fave">PENCIL 
+            <ul class="nabe">
+                <li> blue pencil</li>
+                <li> red pencil</li>
+
+        </ul>
+    </li>
+        
+        <li>LAPTOP</li>
+    </ul>
+
+     <ol start="6">
+        <li>BOOK</li>
+        <li>PENCIL
+            <ol type="i"> 
+                <li class="city">blue pencil</li>
+                <li class="dog"> black pencil</li>
+                <li class="car"> red pencil</li>
+            </ol>
+        </li>
+        <li>LAPTOP</li>
+
+    </ol>
+
+
+    <dl>
+        <dt>ATC TUTORS</dt>
+        <dd> - Yellow handsome Mr. Sodiq</dd>
+        <dt> Buildings </dt>
+        <dd> storey buildings, bungalow</dd>
+    </dl>
+   <h1 id="MB">Getting serious</h1> 
+   <iframe src="assignment1.html" name="iframe_a" width="550px" title="Iframe Example">TESTING</iframe>
+   <p style="color: black;"><a href="https://web.facebook.com/?_rdc=1&_rdr"  target="iframe_a">Facebook testing</a></p>
+   <p>I feel sick</p>
+   <p id="demo"></p>
+   <script>
+       document.getElementById("demo").innerHTML = "Hello Javascript!";
+   </script>
+
+   <figure>
+       <img src="../building.jpg" style="width:40%;" /><figcaption>Fig.1 - Trulli, Puglia Italy.</figcaption>
+    </figure>
+
+   <picture>
+       <source srcset="https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fphotos%2Fgeneric-red-suv-on-a-white-background-side-view-picture-id1157655660%3Fk%3D20%26m%3D1157655660%26s%3D612x612%26w%3D0%26h%3DWOtAthbmJ9iG1zbKo4kNUsAGMe6-xM-E7a8TMxb5xmk%3D&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fcar-cut-out&tbnid=gtYLNHKGOO_CiM&vet=12ahUKEwiW2eSh9Ir3AhUGbhQKHbU-A8gQMygBegUIARDcAQ..i&docid=7NVFXKNdZiZt8M&w=612&h=358&q=image%20of%20a%20car&ved=2ahUKEwiW2eSh9Ir3AhUGbhQKHbU-A8gQMygBegUIARDcAQ" media="(max-width:800px)">
+       <source srcset="https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Forange-flower&psig=AOvVaw34HMGpcSDZrZ1Vu85kabkS&ust=1649728860555000&source=images&cd=vfe&ved=0CAcQjRxqFwoTCNjRjYr1ivcCFQAAAAAdAAAAABAD" media="(min-width: 1500px)">
+       <source srcset="https://www.google.com/imgres?imgurl=https%3A%2F%2Fres.cloudinary.com%2Fdk-find-out%2Fimage%2Fupload%2Fq_80%2Cw_1920%2Cf_auto%2FDCTM_Penguin_UK_DK_AL644648_p7nd0z.jpg&imgrefurl=https%3A%2F%2Fwww.dkfindout.com%2Fus%2Fanimals-and-nature%2Ffish%2Fwhat-is-fish%2F&tbnid=MveprXRS9aQbrM&vet=12ahUKEwi-4KTq9Yr3AhVIXxoKHefmCLwQMygAegUIARDYAQ..i&docid=gYlf9ulV6wPdKM&w=1920&h=1030&q=image%20of%20fish&ved=2ahUKEwi-4KTq9Yr3AhVIXxoKHefmCLwQMygAegUIARDYAQ">
+       <img srcset="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1624910985761-8be5af65b457%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxzZWFyY2h8MTF8fGdhcmFnZXxlbnwwfHwwfHw%253D%26w%3D1000%26q%3D80&imgrefurl=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fgarage&tbnid=CP87eqiCLmq0bM&vet=12ahUKEwjEuuCx9or3AhVB3RoKHbrNAI4QMygEegUIARDeAQ..i&docid=uN1sGZQROHJ5pM&w=1000&h=667&q=image%20of%20garage&ved=2ahUKEwjEuuCx9or3AhVB3RoKHbrNAI4QMygEegUIARDeAQ" alt="Nature">
+    </picture>
+
+<h2 style="font-size: 10vw;">MIND YOUR FUCKING BUSINESS</h2>
+<p style="font-size: 5vw;">Resize the browser window to see how the text size scales</p>
+<div class="left">
+    <p>Left Menu</p>
+</div>
+<div class="main">
+    <p>Main Content</p>
+</div>
+<div class="right">
+    <p>Right Content</p>
+</div>
+<code>
+    x = 5;
+    y = 6;
+    z = x + y;
+</code>
+<p>Print the document <kbd>Ctrl + E</kbd></p>
+<p><samp>File not found.<br> Error processing code</samp></p>
+<p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+<form action="/action_page.php">
+    <label>First name:</label><br>
+    <input type="text" autofocus placeholder=""><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" readonly id="lname" name="lname" ><br><br>
+    <input type="submit" value="Submit">
+  </form> 
+  <input type="text" required placeholder="enter ur name">
+  <input type="file" value="Attach" name="rfrfv" id="">
+  <input type="add" name="" id="">
+  <input type="radio" name="" id="">
+  <h3>Hello</h3>
+  <input type="radio" name="" id="">
+
+  <input>submit</button>
+  <article>THIS ARTICLE SHOWS THE TEST</article>
+  <aside> gingergraphy is a top notch photographer in a womaniser</aside>
+
+  <iframe width= "420" height="300" src="https://www.youtube.com/watch?v=7WU__JQuB8g" frameborder="0"></iframe>
+
+</body>
+</html>

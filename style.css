@@ -1,0 +1,104 @@
+/* body {
+    background-image: url(../programmer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+
+.name {
+color: blue;
+font-size: 30px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-style: italic;
+font-weight: 300;
+
+}
+
+#mabel {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#jul {
+    background-color: blueviolet;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: antiquewhite;
+    padding: 5px 30px 15px 8px;
+    margin: 20px;
+    /* padding-top: 3cm; */
+}
+
+.link {
+    text-align: center;
+   text-decoration:dotted;
+   text-transform: capitalize;
+   font-size: 30px;
+
+}
+img {
+    width: 80px;
+    height: 75px;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:hover {
+    color:red;
+}
+
+a:active {
+    color:black;
+}
+
+table,th,td,tr {
+    border: 2px solid tomato ; 
+    color: rgb(23, 59, 59);
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+ul {
+    list-style-type: square
+}
+.nabe {
+    list-style-type: none;
+}
+
+#fave {
+    background-color: blue;
+}
+
+.dog {
+    color: green;
+}
+
+.car{
+    color: blue;
+}
+#MB {
+    background-color: lightblue;
+    padding: 40px;
+    text-align: center;
+}
+#MB {
+    background-color: lightblue;
+    padding: 40px;
+    text-align: center;
+    color: black;
+}
+iframe {
+    border: 2px solid red;
+    color: black;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+}
+#ab {
+    text-align: center;
+}
+label{
+    text-align: center;
+}

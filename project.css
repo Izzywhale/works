@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,100&display=swap');
+.genders{
+    padding-left: 50px;
+}
+
+label {
+  font-family: 'Noto Sans', sans-serif;
+  /* list-style-type: ; */
+}
+
+
+.tatoo{
+    display: flex;
+}
+
+.applies{
+    margin-left: 50px;
+}
+
+.essay1{
+    display: flex;
+}
+
+.btn{
+    background-color: red;
+    color: white;
+    width: 120px;
+    height:50px;
+    border: none;
+    font-size: 20px;
+}
+/* var xdocument.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.watchPosition(showPosition);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+    
+function showPosition(position) {
+    x.innerHTML="Latitude: " + position.coords.latitude + 
+    "<br>Longitude: " + position.coords.longitude;
+} */

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css">
+    
+</head>
+<body>
+    <div>
+    <h1 style="text-align:center;">Application For Permission To Date My Daughter</h1>
+    <p><strong>Note:</strong> Form is to be completed at least 21days prior to date and prospective guys have to meet all requirements stated</p>
+    <section>
+        <form>
+            <fieldset>
+                <legend>Personal Details</legend><br>
+                <label>Name:</label>
+                <input type="text" autofocus placeholder="Enter name here">
+                <label style>Address:</label>
+                <input type="address"autofocus placeholder="Enter address here">
+                <label for="Email">Email:</label>
+                <input type="email" autofocus placeholder="Enter email here">
+                <label for="Number">Number:</label>
+                <input type="number" autofocus placeholder="Enter 10 digit number ">
+                <label for="IQ">IQ:</label>
+                <input type="number" autofocus placeholder="Enter IQ number here">
+                
+                <div class="gender">
+                <label">Gender:</label><br><br>
+                <div class="genders">
+                    <input type="radio"><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Male</label><br>
+                    <input type="radio"><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Female</label><br>
+                    <input type="radio"><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Other</label>
+                </div>
+               
+                </div>
+                <label> Date of Proposed Outing:</label>
+                <input type="date" min= 2039-11-25 max="2040-01-02">
+            </fieldset><br>       
+    </section>
+<h2>lorem10</h2>
+    <section>
+        <fieldset>
+            <div class="tatoo">
+                <p> <strong>Check All that Apply:</strong></p>
+                <input type="checkbox" style="margin-top: 15px; margin-left:50px;"><label style="margin-top: 15px;"> I have tattoos and/or piercing</label>
+            </div>
+            
+            <div class="applies">
+                <input type="checkbox"><label style="margin-left: 100px;">I am more than 2 years older than your daughter</label><br>  
+                <input type="checkbox"><label style="margin-left: 100px;">I own a car</label><br> 
+                <input type="checkbox"><label style="margin-left: 100px;">I have a high paying Job</label><br> 
+                <input type="checkbox"><label style="margin-left: 100px;">My parents are rich</label><br> 
+                <input type="checkbox"><label style="margin-left: 100px;">Is the date at a 5star restaurant</label>
+            </div>
+            
+        </fieldset>
+    </section><br>
+
+    <div>
+        <fieldset>
+            <p><strong>Credentials Acquired:</strong></p>
+        <label>Political Aspiration:</label>
+        <select>
+            <option value="Mayor">Mayor</option>
+            <option value="Senator">Senator</option>
+            <option value="Governor">Governor</option>
+            <option value="President">President</option>
+        </select><br>
+        <label>Educational Level Completed</label>
+        <select size="2">
+            <option value="University">University</option>
+            <option value="Polytechnic">Polytechnic</option>
+            <option value="Technical School">Technical School</option>
+            <option value="College">College</option>
+            <option value="Secondary School">Secondary School</option>
+            <option value="Primary School">Primary School</option>
+        </select>   
+        </fieldset>
+    </div><br>
+    <section>
+        <fieldset>
+            <p> <strong>Essay Section</strong></p>
+            <div class="essay1">
+                <label>In 50 words or more, explain why you want to date my daughter</label>
+                <textarea cols="25" rows="5" placeholder="Enter Text Here" style="margin-left: 5px;"></textarea>
+            </div><br>
+            <div class="essay1">
+                <label>Please Upload contact details for 2 references</label>
+                <textarea cols="25" rows="7" placeholder="Enter Text Here" style="margin-left: 5px;"></textarea>
+            </div>
+
+        <p></p>
+
+        <button class="btn">Attach Files</button>
+
+        </fieldset>
+    </section><br>
+    
+    
+        <fieldset>
+            <legend>Bank Account Status</legend>
+            <form>
+                <label for="Bank App username">Bank App username:</label><br>
+                <input type="text" name="Bank App username" id="Bank App username"><br>
+                <label for="Bank App Password">Bank App Password:</label><br>
+                <input type="password" name="pwd" id="pwd"><br>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+                 </form>
+        </fieldset    
+        </form>
+    </div>
+    <p>Click the button to get your coordinates.</p>
+
+    <button onclick="getLocation()">Try It</button>
+    
+
+
+</body>
+</html>
